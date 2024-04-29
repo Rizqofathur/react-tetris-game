@@ -1,0 +1,12 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  color: var(--text-white);
+  background-color: var(--bg-color);
+  height: 100vh;
+  padding: 20px;
+}
+.App h1 {
+  font-weight: 700;
+  font-size: 2rem;
+}

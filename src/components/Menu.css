@@ -1,0 +1,23 @@
+.Button {
+  padding: 12px 26px;
+  font-size: 1.2em;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  box-shadow: rgb(0, 0, 0, 0.5) 0 0 36px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.Button:hover {
+  background-color: rgb(203, 203, 203);
+}
+.Button:active {
+  background-color: rgb(185, 185, 185);
+}
+.Menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  z-index: 100;
+}
