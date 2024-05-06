@@ -1,5 +1,6 @@
 import Menu from './Menu';
 import Tetris from './Tetris';
+import './Game.css';
 import { useGameOver } from '../hooks/useGameOver';
 
 const Game = ({ rows, columns }) => {

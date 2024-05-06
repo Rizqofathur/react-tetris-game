@@ -1,6 +1,9 @@
 :root {
   --text-white: rgb(255, 255, 255);
   --bg-color: rgb(27, 26, 85);
+  --bg-success: #14a44d;
+  --bg-success-hover: #127f3e;
+  --bg-success-active: #2e9658;
 }
 
 /* CSS Reset */
@@ -128,4 +131,8 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+html {
+  overflow: hidden;
 }

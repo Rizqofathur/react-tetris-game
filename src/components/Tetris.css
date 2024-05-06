@@ -1,3 +1,13 @@
 .Tetris {
-  position: relative;
+  margin: 2em;
+  position: absolute;
+  max-width: 600px;
+  display: flex;
+  transform: translate(10%, 1%);
+  gap: 2rem;
+}
+.Right-layout {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 36px;
 }

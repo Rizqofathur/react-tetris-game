@@ -1,9 +1,7 @@
 import './Preview.css';
 import React from 'react';
-
 import { buildBoard } from '../business/Board';
 import { transferToBoard } from '../business/Tetrominoes';
-
 import BoardCell from './BoardCell';
 
 const Preview = ({ tetromino, index }) => {

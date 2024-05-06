@@ -1,21 +1,25 @@
 .Button {
   padding: 12px 26px;
   font-size: 1.2em;
-  font-weight: 600;
+  font-weight: 500;
   border-radius: 10px;
   border: none;
   box-shadow: rgb(0, 0, 0, 0.5) 0 0 36px;
+  background-color: var(--bg-success);
+  color: rgb(235, 235, 235);
   cursor: pointer;
   transition: 0.2s;
 }
 .Button:hover {
-  background-color: rgb(203, 203, 203);
+  background-color: var(--bg-success-hover);
 }
 .Button:active {
-  background-color: rgb(185, 185, 185);
+  background-color: var(--bg-success-active);
 }
 .Menu {
   display: flex;
+  flex-direction: column;
+  gap: 2.2rem;
   justify-content: center;
   align-items: center;
   min-height: 50vh;
